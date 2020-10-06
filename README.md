@@ -1,4 +1,4 @@
-Registration System - By Md. Imran
+Laravel Registration System - By Md. Imran
 -----------------------------------
 
 							~~~~~~~~~~~~~~~~
@@ -46,14 +46,17 @@ Training Name	Training Details	Action
 Text Box	       Text Box	
 Text Box	       Text Box	       Add More..
 
-Submit Button
+---------------
+|Submit Button|
+---------------
 
-====================================================================
+============================================================
 
 				~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 				|Registration List Search Wizard|
 				~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-====================================================================
+============================================================
+
 Applicant's Name:	Text Box
 
 Email Address:	Text Box
