@@ -1,61 +1,85 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+Registration System - By Md. Imran
+-----------------------------------
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+							~~~~~~~~~~~~~~~~
+							|Form Prototype|
+							~~~~~~~~~~~~~~~~
+=============================================================================
+Applicant's Name:	|Text Box|
 
-## About Laravel
+Email Address:	|Text Box|
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Mailing Address
+----------------
+|Division : Dropdown List|       |District : Dropdown List|          |Upazila / Thana : Dropdown List|
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Note: Dependency dropdown. Ex. If Select Dhaka from Division Dropdown List  , then only Dhaka division district will come in District : Dropdown List         
+      
+Address Details:	Text Area
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Language Proficiency: 	Bangla  English French  (Check Box)
 
-## Learning Laravel
+Education Qualification
+-------------------------
+Exam Name	          University 	      Board	         Result	          Action
+Dropdown List        Dropdown List     Dropdown List  	Text Box          Delete
+From Table            From Table         From Table
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Dropdown List        Dropdown List     Dropdown List     Text Box        Add More..
+From Table            From Table         From Table
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-## Laravel Sponsors
+Photo:	File Upload (Only Allow Image)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+CV Attachment:	File Upload (Only Allow DOC/PDF)
 
-### Premium Partners
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[OP.GG](https://op.gg)**
 
-## Contributing
+Training:	Radio Button YES      Radio Button No
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+If user click on YES, then the following  Area will open:
 
-## Code of Conduct
+Training Name	Training Details	Action
+Text Box	       Text Box	
+Text Box	       Text Box	       Add More..
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Submit Button
 
-## Security Vulnerabilities
+===========================================================================================
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+				~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+				|Registration List Search Wizard|
+				~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+===========================================================================================================
+Applicant's Name:	Text Box
+	Email Address:	Text Box
 
-## License
+Division : Dropdown List         District : Dropdown List        Upazila / Thana : Dropdown List
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Note: Dependency dropdown. Ex. If Select Dhaka from Division Dropdown List  , then only Dhaka division district will come in District : Dropdown List         
+
+
+Note: Based on search parameter following list will generate.
+Registration List
+
+Applicant's Name	Email Address	Division	District 	Upazila / Thana	Insert Date	Action
+Mamun	        bdabdulla@gmail.com	Dhaka	Kishoregonj	Kishoregonj  Sadar	2016-08-01	Edit
+Mhabub	        mhabub@gmail.com	Dhaka	Mymensingh	Mymensingh Sadar	2016-08-01	Edit
+Paging
+============================================================================================================
+
+
+Please compete the application based on following requirement:
+Technology: 
+Framework: Codeigniter/Laravel
+Database: MYSQL
+	User Part (No Authentication)
+	Admin Part:  After login admin will get the registration list.
+
+
+
+
+Note: 
+1.	Addes PHP Validation
+2.	Apply jQuery Validation in registration form
+3.	Form data submited by Ajax
