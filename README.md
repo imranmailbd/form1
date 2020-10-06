@@ -52,6 +52,13 @@ Text Box	       Text Box	       Add More..
 
 ============================================================
 
+
+
+
+
+
+
+
 				~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 				|Registration List Search Wizard|
 				~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -74,7 +81,10 @@ Mamun	        bdabdulla@gmail.com	Dhaka	Kishoregonj	Kishoregonj  Sadar	2016-08-0
 Mhabub	        mhabub@gmail.com	Dhaka	Mymensingh	Mymensingh Sadar	2016-08-01	Edit
 Paging
 
-==============================================================================
+=============================================================
+
+
+
 
 
 Please compete the application based on following requirement:
@@ -83,8 +93,6 @@ Framework: Codeigniter/Laravel
 Database: MYSQL
 	User Part (No Authentication)
 	Admin Part:  After login admin will get the registration list.
-
-
 
 
 Note: 
